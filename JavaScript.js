@@ -23,18 +23,17 @@ var database = [{
 
 {
 	username: "cersei",
-	Password: "lannister"
+	password: "lannister"
 },
 
 {
 	username: "kal",
-	Password: "drogo"
-},
+	password: "drogo"
+}
 ];
 
 
 function valid(username, password) {
-	debugger;
 	for(var i=0; i<database.length; i++){
 		if (database[i].username === username && database[i].password === password) {
 			return true;
